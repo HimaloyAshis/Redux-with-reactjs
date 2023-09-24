@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-const ChildOne = () => {
+const ChildTwo = () => {
 
-    const [count , setCount ] = useState(0)
+    const [count , setCount] = useState(0)
 
     return (
         <div className='max-w-4xl m-10 border-2 border-purple-600 rounded-lg'>
@@ -11,15 +11,16 @@ const ChildOne = () => {
             </div>
             <div className='w-full grid m-auto place-content-center'>
                 <div className='flex gap-5  shrink-0 mx-w-md justify-center p-10'>
-                    <button onClick={()=> setCount((prev)=> prev - 1 ) } className='bg-orange-300 px-5 py-2 rounded'>decrease</button>
+                    <button onClick={() => setCount((prev) => prev - 1)} className='bg-orange-300 px-5 py-2 rounded'>decrease</button>
                     <p>{count} </p>
-                    <button onClick={()=> setCount((prev)=> prev + 1 ) } className=' bg-lime-300 px-5 py-2 rounded '>increase</button>
+                    <button onClick={() => setCount((prev) => prev + 1)} className=' bg-lime-300 px-5 py-2 rounded '>increase</button>
 
                 </div>
 
             </div>
         </div>
+
     );
 };
 
-export default ChildOne;
+export default ChildTwo;
