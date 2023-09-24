@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Parent = () => {
+const Child = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const Parent = () => {
     );
 };
 
-export default Parent;
+export default Child;
