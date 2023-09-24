@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
-const ChildTwo = () => {
+const ChildTwo = ({count, setCount}) => {
 
-    const [count , setCount] = useState(0)
+
 
     return (
         <div className='max-w-4xl m-10 border-2 border-purple-600 rounded-lg'>
