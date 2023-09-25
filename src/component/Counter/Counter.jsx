@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import CounterContext from "../../CounterContext/CounterContext";
+import { CounterApi } from "../../CounterContext/CounterContext";
 
 
 const Counter = () => {
 
-    const {count, setCount}  = useContext(CounterContext)
+    const {count, setCount}  = useContext(CounterApi)
     
 
     return (

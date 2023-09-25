@@ -1,6 +1,6 @@
 import React, { createContext, useState } from 'react';
 
-export const CounterContext = createContext()
+export const CounterApi = createContext()
 
 const CounterContext = ({children}) => {
 
@@ -13,9 +13,9 @@ const CounterContext = ({children}) => {
 
 
     return (
-        <CounterContext.Provider value={info}>
+        <CounterApi.Provider value={info}>
             {children}
-        </CounterContext.Provider >
+        </CounterApi.Provider >
     );
 };
 
