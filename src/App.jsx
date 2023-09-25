@@ -1,4 +1,5 @@
 import './App.css'
+import CaseTwo from './page/CaseTwo/CaseTwo'
 import Parent from './page/parent/Parent'
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
 
   return (
     <>
-      <Parent></Parent>
+      {/* <Parent></Parent> */}
+      <CaseTwo></CaseTwo>
     </>
   )
 }
