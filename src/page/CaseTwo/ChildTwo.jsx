@@ -11,7 +11,7 @@ const ChildTwo = ({count, setCount}) => {
                 <p>2</p>
             </div>
             <div className='w-full grid m-auto place-content-center'>
-                <Counter></Counter>
+                <Counter count = {count} setCount = {setCount} ></Counter>
             </div>
         </div>
 

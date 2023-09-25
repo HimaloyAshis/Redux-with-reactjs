@@ -1,12 +1,15 @@
-import React from 'react';
-import ChildOne from './ChildOne';
-import ChildTwo from './ChildTwo';
+import React, { useState } from 'react';
+import ChildOne from '../CaseTwo/ChildOne';
+import ChildTwo from '../CaseTwo/ChildTwo';
 
 const CaseTwo = () => {
+
+    const [count, setCount] = useState(0)
+
     return (
         <div className='border-2 border-orange-600 m-auto max-w-5xl '>
-            <ChildOne></ChildOne>
-            <ChildTwo></ChildTwo>
+            <ChildOne count = {count} setCount = {setCount}></ChildOne>
+            <ChildTwo count = {count} setCount = {setCount}></ChildTwo>
         </div>
     );
 };

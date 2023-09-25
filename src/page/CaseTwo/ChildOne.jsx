@@ -8,7 +8,7 @@ const ChildOne = ({count, setCount}) => {
                 <p>1</p>
             </div>
             <div className='w-full grid m-auto place-content-center'>
-                <Counter></Counter>
+                <Counter count = {count} setCount = {setCount}></Counter>
             </div>
         </div>
     );

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-
-const Counter = () => {
 
 
-    const [count, setCount] = useState(0)
+const Counter = ({count, setCount}) => {
+
+
+    
 
     return (
         <div className='flex gap-5  shrink-0 mx-w-md justify-center p-10'>
