@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
-import ChildOne from '../Child/ChildOne';
-import ChildTwo from '../Child/ChildTwo';
+import ChildOne from '../CaseOne/ChildOne';
+import ChildTwo from '../CaseTwo/ChildTwo';
+
+
 
 const Parent = () => {
 

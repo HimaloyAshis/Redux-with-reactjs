@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Counter from '../../component/Counter/Counter';
 
 const ChildTwo = ({count, setCount}) => {
 
@@ -7,16 +8,10 @@ const ChildTwo = ({count, setCount}) => {
     return (
         <div className='max-w-4xl m-10 border-2 border-purple-600 rounded-lg'>
             <div className='text-3xl bg-purple-300 w-10 h-10 place-content-center grid m-5 rounded-full'>
-                <p>1</p>
+                <p>2</p>
             </div>
             <div className='w-full grid m-auto place-content-center'>
-                <div className='flex gap-5  shrink-0 mx-w-md justify-center p-10'>
-                    <button onClick={() => setCount((prev) => prev - 1)} className='bg-orange-300 px-5 py-2 rounded'>decrease</button>
-                    <p>{count} </p>
-                    <button onClick={() => setCount((prev) => prev + 1)} className=' bg-lime-300 px-5 py-2 rounded '>increase</button>
-
-                </div>
-
+                <Counter></Counter>
             </div>
         </div>
 

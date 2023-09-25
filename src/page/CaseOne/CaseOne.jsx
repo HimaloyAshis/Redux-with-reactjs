@@ -1,5 +1,5 @@
 import React from 'react';
-import ChildOne from '../Child/ChildOne';
+import ChildOne from './ChildOne';
 
 const CaseOne = () => {
     return (
