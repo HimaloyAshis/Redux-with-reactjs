@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Counter from '../../component/Counter/Counter';
 
-const ChildTwo = ({count, setCount}) => {
+const ChildTwo = () => {
 
 
 
@@ -11,7 +11,7 @@ const ChildTwo = ({count, setCount}) => {
                 <p>2</p>
             </div>
             <div className='w-full grid m-auto place-content-center'>
-                <Counter count = {count} setCount = {setCount} ></Counter>
+                <Counter></Counter>
             </div>
         </div>
 

@@ -1,8 +1,10 @@
+import { useContext } from "react";
+import CounterContext from "../../CounterContext/CounterContext";
 
 
-const Counter = ({count, setCount}) => {
+const Counter = () => {
 
-
+    const {count, setCount}  = useContext(CounterContext)
     
 
     return (
