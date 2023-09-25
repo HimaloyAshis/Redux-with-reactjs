@@ -1,15 +1,15 @@
-// import React, { useState } from 'react';
-// import CaseTwo from './CaseTwo';
+import React, { useState } from 'react';
+import CaseTwo from './CaseTwo';
 
-// const Parent = () => {
+const Parent = () => {
 
-//     const [count, setCount] = useState(0)
+    const [count, setCount] = useState(0)
 
-//     return (
-//         <div>
-//             <CaseTwo count = {count} setCount = {setCount}></CaseTwo>
-//         </div>
-//     );
-// };
+    return (
+        <div>
+            <CaseTwo count = {count} setCount = {setCount}></CaseTwo>
+        </div>
+    );
+};
 
-// export default Parent;
+export default Parent;
