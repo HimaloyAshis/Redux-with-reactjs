@@ -2,6 +2,7 @@ import './App.css'
 import CounterContext from './CounterContext/CounterContext'
 import CaseTwo from './page/CaseTwo/CaseTwo'
 import Parent from './page/CaseTwo/Parent'
+import Test from './page/Test/Test'
 
 
 function App() {
@@ -11,9 +12,10 @@ function App() {
     <>
       {/* <Parent></Parent> */}
       {/* <CaseTwo></CaseTwo> */}
-      <CounterContext>
+      {/* <CounterContext>
         <Parent></Parent>
-      </CounterContext>
+      </CounterContext> */}
+      <Test></Test>
     </>
   )
 }
