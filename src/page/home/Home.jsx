@@ -1,9 +1,10 @@
 import React from 'react';
+import Counters from '../../component/Counters/Counters';
 
 const Home = () => {
     return (
         <div>
-            <h1>all is well</h1>
+           <Counters></Counters>
         </div>
     );
 };

@@ -3,6 +3,7 @@ import CounterContext from './CounterContext/CounterContext'
 import CaseTwo from './page/CaseTwo/CaseTwo'
 import Parent from './page/CaseTwo/Parent'
 import Test from './page/Test/Test'
+import Home from './page/home/Home'
 
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
       {/* <CounterContext>
         <Parent></Parent>
       </CounterContext> */}
-      <Test></Test>
+      {/* <Test></Test> */}
+      <Home></Home>
     </>
   )
 }
