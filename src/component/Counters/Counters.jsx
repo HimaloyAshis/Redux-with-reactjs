@@ -13,7 +13,9 @@ const Counters = () => {
         <div>
             <button onClick={() => dispatch(increment())}>increment</button>
             <br />
+
             <button onClick={() => dispatch(incrementByValue(5))}>increment by 5</button>
+
             <div>{count}</div>
             <button onClick={() => dispatch(decrement())}>decrement</button>
         </div>
